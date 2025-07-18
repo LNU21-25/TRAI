@@ -9,7 +9,7 @@ const model = 'gpt-4o-mini';
 const docNames = ['WasteSeparation.pdf'];
 const docs = docNames.map((name) => `assets/docs/${name}`);
 
-const apiKey = 'sk-proj-gjy7kKwkCSHvVL8IqkDvT3BlbkFJIWioF4IOOBPlRNLWmO4v';
+const apiKey = '';
 if (!apiKey) {
   throw new Error('API_KEY is not defined in the environment variables');
 }
